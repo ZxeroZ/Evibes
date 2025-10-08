@@ -1,0 +1,48 @@
+main.main-content {
+    padding: 40px 20px;
+    max-width: 1024px;
+    margin: 0 auto;
+    min-height: calc(100vh - 160px); /* Header (80px) + Footer (80px) */
+    background-color: #f4f7f6;
+}
+
+.main-content h1, .main-content h2 {
+    color: #031e31;
+    margin-bottom: 20px;
+}
+
+.main-content p {
+    color: #5f6c7b;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+.main-content a {
+    color: #0b5183;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.main-content a:hover {
+    text-decoration: underline;
+}
+
+/* Styles for a "card-like" appearance */
+.releases, .about-us {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+}
+
+.release-item {
+    border-bottom: 1px solid #e0e0e0;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+.release-item:last-child {
+    border-bottom: none;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
